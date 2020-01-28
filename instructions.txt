@@ -1,0 +1,54 @@
+En C :
+----
+
+Pour pouvoir transformer un fichier d'entree Lex exo1.l en un fichier
+excetutable exo1 :
+
+     - naviguer vers la page
+     
+           http://www.licence.info.upmc.fr/lmd/licence/2018/ue/3I018-2019fev/TD-TME/TD-TME1/
+
+     - telecharger le fichier   libyywrap.o
+     - pour transformer votre fichier d'entree  exo1.l en exo1.c
+
+            flex -o exo1.c exo1.l
+
+     - pour compiler
+     
+            gcc -o exo1 exo1.c libyywrap.o
+
+     - pour executer
+
+            ./exo1
+
+***************************************************************************
+
+En Java :
+-------
+
+Pour pouvoir transformer un fichier d'entree jflex Exo1.jflex en un fichier
+excetutable sous java Exo1.class :
+
+     - naviguer vers la page
+     
+           http://www.licence.info.upmc.fr/lmd/licence/2018/ue/3I018-2019fev/TD-TME/TD-TME1/
+
+     - telecharger le fichier  jflex-1.6.1.tar.gz
+     - decompresser ce fichier avec la commande
+
+            tar xvfz jflex-1.6.1.tar.gz
+
+     - pour transformer votre fichier d'entree  Exo1.jflex en un fichier
+       Exo1.java
+
+            jflex-1.6.1/bin/jflex  Exo1.jflex
+
+     - pour compiler ce fichier
+
+            javac Exo1.java
+
+     - pour l'executer
+
+            java Exo1
+
+
